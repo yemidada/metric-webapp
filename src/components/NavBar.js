@@ -13,7 +13,7 @@ const NavBar = () => (
         <FontAwesomeIcon className="left-icon" icon={faChevronLeft} />
       </Link>
 
-      <span>2015</span>
+      <span>MY HAIR</span>
     </div>
     <div className="text-center title">Hair Styles</div>
     <div>
