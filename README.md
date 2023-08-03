@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <h3><b>Captone Project : Hair Styling </b></h3>
+  <h3><b>Captone Project : Hair Styles </b></h3>
 
 </div>
 
@@ -25,7 +25,7 @@
 - [📝 License](#license)
 
 
-# 📖 Captone Project : Hair Styling  <a name="about-project"></a>
+# 📖 Captone Project : Hair Styles  <a name="about-project"></a>
 
 **The React capstone project is an adaptive web application that showcases various hairstyles and corresponding hair details sourced from an open API. Developed using React, Redux, HTML, and CSS, this project ensures a responsive user experience.**
 
