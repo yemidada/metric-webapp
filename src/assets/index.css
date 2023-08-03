@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #f7dbe6;
+  background: #cc6289;
+  font-size: 15px;
+}
+
+a {
+  color: #fdfbfc;
+  text-decoration: none;
+}
+
+.header {
+  background: #db598a;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .title {
+  color: #eeb5ce;
+}
+
+.header .left-icon {
+  padding-right: 10px;
+}
+
+.header .right-icon {
+  padding-left: 30px;
+}
+
+.page-title {
+  background-color: #cd5381;
+  text-transform: capitalize;
+  padding: 3px 16px;
+}
+
+.page-feature {
+  background-color: #ec6195;
+  padding: 15px 0;
+}
+
+.page-feature .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-feature .item-detail {
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.page-feature .item-detail p {
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.page-feature .item-detail .value {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.page-item {
+  background: #cb5280;
+  padding: 10px 0;
+  position: relative;
+}
+
+.page-item img {
+  width: 100%;
+}
+
+.page-item .icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #f7dbe6;
+}
+
+.page-item:nth-child(4n+2),
+.page-item:nth-child(4n+3) {
+  background-color: #c24d77;
+}
+
+.page-item .item-detail {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.page-item .item-detail p {
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.page-item .item-detail .value {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.page-details {
+  padding: 10px 0;
+}
+
+.page-details .answer {
+  padding-right: 20px;
+}
+
+.page-details:nth-child(odd) {
+  background: #d75686;
+}
+
+.page-details:nth-child(even) {
+  background: #c14e77;
+}
