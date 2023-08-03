@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <Feature item={data} className="feature" />
-      <Title title="DETAIL OF HAIRSTYLE" />
+      <Title title="DETAIL OF HAIRSTYLE" showSearch={false} />
       <Details title="Name" answer={data && data.name ? data.name : ''} />
       <Details title="Owner" answer={data && data.owned ? data.owned : ''} />
       <Details title="Patch" answer={data && data.patch ? data.patch : ''} />

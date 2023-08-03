@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { getCategories } from '../redux/categories/categoriesSlice';
+import { getCategories, search } from '../redux/categories/categoriesSlice';
 import Title from '../components/Title';
 import Item from '../components/Item';
 import Feature from '../components/Feature';
@@ -30,7 +30,13 @@ const Home = () => {
         </Link>
       )}
 
-      <Title title="STAT BY HAIR STYLES" />
+      <Title
+        title="STAT BY HAIR STYLES"
+        showSearch
+        onTyping={(str) => {
+          dispatch(search(str.target.value));
+        }}
+      />
 
       <div className="container-fluid">
         <div className="row">
