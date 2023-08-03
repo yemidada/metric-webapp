@@ -29,12 +29,20 @@ Object {
         </div>
       </div>
       <div
-        class="page-title"
+        class="container-fluid"
       >
         <div
-          class="container"
+          class="page-title"
         >
-          DETAIL OF HAIRSTYLE
+          <div
+            class="row d-flex d-flex justify-content-center align-items-center"
+          >
+            <span
+              class="col-6"
+            >
+              DETAIL OF HAIRSTYLE
+            </span>
+          </div>
         </div>
       </div>
       <div
@@ -145,12 +153,20 @@ Object {
       </div>
     </div>
     <div
-      class="page-title"
+      class="container-fluid"
     >
       <div
-        class="container"
+        class="page-title"
       >
-        DETAIL OF HAIRSTYLE
+        <div
+          class="row d-flex d-flex justify-content-center align-items-center"
+        >
+          <span
+            class="col-6"
+          >
+            DETAIL OF HAIRSTYLE
+          </span>
+        </div>
       </div>
     </div>
     <div

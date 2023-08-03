@@ -19,18 +19,14 @@ const Feature = ({ item }) => (
 );
 
 Feature.defaultProps = {
-  item: PropTypes.shape({
-    icon: PropTypes.string,
-    name: PropTypes.string,
-    owned: PropTypes.string,
-  }),
+  item: {},
 };
 
 Feature.propTypes = {
-  item: PropTypes.shape({
+  item: PropTypes.objectOf(PropTypes.shape({
     icon: PropTypes.string,
     name: PropTypes.string,
     owned: PropTypes.string,
-  }),
+  })),
 };
 export default Feature;
