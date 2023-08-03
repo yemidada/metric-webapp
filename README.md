@@ -110,10 +110,10 @@ Clone this repository to your desired folder:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/yemidada/bootstore.git
+$ git clone https://github.com/yemidada/metric-webapp.git
 
 # Go into the repository
-$ cd bootstore
+$ cd metric-webapp
 
 # Install dependencies
 $ npm install
@@ -173,7 +173,7 @@ If you like this project you can support us  by sharing our code
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks you microverse for the opinion to opportunity and <a target="_blank" href="https://ffxivcollect.com">https://ffxivcollect.com</a> for the API
+I extend my gratitude to Microverse for providing the platform that turned opinions into opportunities. It is essential to acknowledge <a target="_blank" href="https://www.behance.net/sakwadesignstudio">Nelson Sakwa</a>,  <a target="_blank" href="https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)">the original design's author</a>, as per the requirements of the <a href="https://creativecommons.org/licenses/">Creative Commons License</a>. Lastly, I would like to express appreciation to <a target="_blank" href="https://ffxivcollect.com">https://ffxivcollect.com</a> for the API support used in this project.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
