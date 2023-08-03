@@ -1,18 +1,18 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import axios from "axios";
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import axios from 'axios';
 
 export const getCategories = createAsyncThunk(
-  "categories/getCategories",
+  'categories/getCategories',
   async () => {
     const response = await axios.get(
-      `https://ffxivcollect.com/api/hairstyles`
+      'https://ffxivcollect.com/api/hairstyles',
     );
     return response.data;
-  }
+  },
 );
 
 export const categoriesSlice = createSlice({
-  name: "categories",
+  name: 'categories',
   initialState: {
     categories: [],
     loading: false,

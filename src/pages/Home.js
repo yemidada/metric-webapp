@@ -1,10 +1,10 @@
-import { useSelector, useDispatch } from "react-redux";
-import { useEffect } from "react";
-import { getCategories } from "../redux/categories/categoriesSlice";
-import Title from "../components/Title";
-import Item from "../components/Item";
-import Feature from "../components/Feature";
-import { Link } from "react-router-dom";
+import { useSelector, useDispatch } from 'react-redux';
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { getCategories } from '../redux/categories/categoriesSlice';
+import Title from '../components/Title';
+import Item from '../components/Item';
+import Feature from '../components/Feature';
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -13,14 +13,15 @@ const Home = () => {
   }, [dispatch]);
 
   const { categories, loading } = useSelector((state) => state.categories);
-  if (loading)
+  if (loading) {
     return (
       <div className="position-relative">
-          <div className="position-absolute top-50 start-50 translate-middle">
-            <p>Loading...</p>
+        <div className="position-absolute top-50 start-50 translate-middle">
+          <p>Loading...</p>
         </div>
       </div>
     );
+  }
   return (
     <>
       {categories.length > 0 && (

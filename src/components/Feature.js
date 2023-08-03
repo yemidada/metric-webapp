@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const Feature = ({ item }) => (
   <div className="page-feature">
     <div className="container">
@@ -15,4 +17,12 @@ const Feature = ({ item }) => (
     </div>
   </div>
 );
+
+Feature.defaultProps = {
+  item: PropTypes.shape(),
+};
+
+Feature.propTypes = {
+  item: PropTypes.shape(),
+};
 export default Feature;
