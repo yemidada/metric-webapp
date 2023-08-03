@@ -7,7 +7,7 @@ const Title = ({ title, onTyping, showSearch }) => (
 
         <span className="col-6">{title}</span>
         {
-        showSearch && <div className="col-6"><input placeholder="Search for hair" onChange={onTyping} className="form-control search " /></div>
+        showSearch && <div className="col-4"><input placeholder="Search for hair" onChange={onTyping} className="form-control search " /></div>
       }
       </div>
     </div>

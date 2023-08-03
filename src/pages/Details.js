@@ -13,7 +13,6 @@ const Home = () => {
       <Details title="Name" answer={data && data.name ? data.name : ''} />
       <Details title="Owner" answer={data && data.owned ? data.owned : ''} />
       <Details title="Patch" answer={data && data.patch ? data.patch : ''} />
-
     </>
   );
 };
