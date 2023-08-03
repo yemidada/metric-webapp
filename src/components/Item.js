@@ -17,10 +17,18 @@ const Item = ({ item }) => (
 );
 
 Item.defaultProps = {
-  item: PropTypes.shape(),
+  item: PropTypes.shape({
+    icon: PropTypes.string,
+    name: PropTypes.string,
+    owned: PropTypes.string,
+  }),
 };
 
 Item.propTypes = {
-  item: PropTypes.shape(),
+  item: PropTypes.shape({
+    icon: PropTypes.string,
+    name: PropTypes.string,
+    owned: PropTypes.string,
+  }),
 };
 export default Item;
