@@ -20,7 +20,6 @@ export const categoriesSlice = createSlice({
   },
   reducers: {
     search: (state, action) => {
-      console.log(action.payload);
       state.categories = state.temporary;
 
       state.categories = state.categories.filter((cat) => cat.name.toLowerCase()

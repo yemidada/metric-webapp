@@ -5,7 +5,7 @@ const Title = ({ title, onTyping, showSearch }) => (
     <div className="page-title">
       <div className="row d-flex d-flex justify-content-center align-items-center">
 
-        <span className="col-6">{title}</span>
+        <span className="col-6 text-start">{title}</span>
         {
         showSearch && <div className="col-4"><input placeholder="Search for hair" onChange={onTyping} className="form-control search " /></div>
       }
