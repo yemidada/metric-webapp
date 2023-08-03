@@ -16,7 +16,7 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
-  - [Live Demo](#demo)
+  - [Live Demo and Video](#demo)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -124,10 +124,7 @@ $ npm install
 
 After you clone this repo to your desktop and install the dependencies, go to its root directory and run `npm start` to run the application.
 
-### demo
-
-After you clone this repo to your desktop and install the dependencies, go to its root directory and run `npm start` to run the application.
-
+### Live Demo and Video
 
 - [Live Demo Link](https://hairstyles.onrender.com/)
 - [Video Walkthrough](https://www.loom.com/share/9448458b6ebd4cf4992b6c8dd9da543c)
@@ -176,7 +173,7 @@ If you like this project you can support us  by sharing our code
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks you microverse for the opinion to opportunity and <a href="https://ffxivcollect.com">https://ffxivcollect.com</a> for the API
+Thanks you microverse for the opinion to opportunity and <a target="_blank" href="https://ffxivcollect.com">https://ffxivcollect.com</a> for the API
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
